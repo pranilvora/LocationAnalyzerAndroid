@@ -3,8 +3,21 @@
     package="com.bhorkarg.indooratlasexample">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.wifi"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -15,10 +28,10 @@
 
         <meta-data
             android:name="com.indooratlas.android.sdk.API_KEY"
-            android:value="YOUR KEY"/>
+            android:value="2c9eb436-02f1-4854-b429-71c84367eea6"/>
         <meta-data
             android:name="com.indooratlas.android.sdk.API_SECRET"
-            android:value="YOUR SECRET"/>
+            android:value="oVQlp+qzoVk6J6EfCh6tI6G0Z7aUjRwsPKx9PuRgzc9PKrWzNQ30m6ZlR5KyuBgTcZT6l0/nNpXlS7v4WesmUoE9ym1OAOD6y7+9aOu5lby9X7XYbzDkdvQiKeVkBA=="/>
 
         <activity android:name=".MainActivity">
             <intent-filter>

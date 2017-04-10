@@ -27,4 +27,14 @@
         android:layout_marginTop="22dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ServerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLocation"
+        android:layout_marginTop="129dp"
+        android:text="Info"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
